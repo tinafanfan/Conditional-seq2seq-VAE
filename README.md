@@ -8,4 +8,5 @@ Build a conditional seq2seq VAE model in this lab homework to achieve two goals:
 2. Generate verbs with 4 tenses(simple tense, third-person singular, present progressive tense, and past tense) by Gaussian noise.
 
 
-The objective function is $$E_{z \sim q(z|x;\theta^{'})} \log\mathrm{P}(x|z;\theta) -KL(q(z|x;\theta^{'}) || \mathrm{P}(z;\theta))$$
+The objective function is ![image](https://user-images.githubusercontent.com/69135204/124858247-45b39f00-dfe0-11eb-8216-41232df075e0.png)
+
